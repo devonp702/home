@@ -1,0 +1,14 @@
+/* Stylesheet for global appearance changes */
+
+body {
+  background-image: url("images/bgTile.gif");
+  background-repeat: repeat;
+}
+
+.container {
+  background-color: purple;
+}
+
+a {
+  color: yellow;
+}
