@@ -7,4 +7,4 @@
 
 ## notes
 1. The contact me page is just filled out as a blank form. When I learn how, I'm planning on making it work.
-2. Gallery is eventually going to become my work portfolio, but for now just has a bunch of placeholder pictures.
+2. ~~Gallery is eventually going to become my work portfolio, but for now just has a bunch of placeholder pictures.~~ Some gallary sites have been added!
