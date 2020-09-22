@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // Loop 10 times
+      var playagain = true; //references end of code, True = continue the loop
+      var lst = ["r","p","s"];
+      var pWin = 0;
+      var pTie = 0;
+      var pLose = 0;
+      function tie(){
+        alert("You played :" + mine +", Computer played :" + comp + " You tied.");
+        pTie++;
+      };
+      function win(){
+        alert("You played :" + mine +", Computer played :" + comp + " You win!");
+        pWin++;
+      };
+      function lose(){
+        alert("You played :" + mine +", Computer played :" + comp + " You lost.");
+        pLose++;
+      };
+      while(playagain){
+        var mine = prompt("Rock, Paper, Scissors. please type: 'r','p',or's");
+        var comp = lst[Math.floor(Math.random() * 3)];
+        if(mine === comp){
+          tie();
+        } else if((mine == "r" && comp == "s") || (mine == "s" && comp == "p") || (mine == "p" && comp == "r")){
+          win();
+        } else{
+          lose();
+        }
+        playagain = confirm("Score: " + pWin + " Wins, " + pTie + " Ties, and " + pLose + " Losses. Play another round?");
+      }
+      
+    </script>
+  </body>
+</html>
