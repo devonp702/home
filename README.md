@@ -1,8 +1,8 @@
 # Home
 [github repo](https://github.com/devonp702/home)
 [deployed here](https://devonp702.github.io/home/)
-![screenshot of main page](assets\images\main.png)
-![screenshot of gallery](assets\images\gallery.png)
+![screenshot of main page](assets/images/main.png)
+![screenshot of gallery](assets/images/gallery.png)
 ## intro
 - A size reactive website created using bootstrap.
 - There are three pages of html, and one CSS sheet to make some broad style changes.
