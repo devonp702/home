@@ -46,7 +46,7 @@
   </nav>
 
   <!--Message form area-->
-  <form class="container">
+  <div class="container">
     <div class="row">
       <div class="col-12">
         <h1>Contact Me</h1>
@@ -54,49 +54,56 @@
     </div>
     <div class="row">
       <div class="col-12 col-lg-6">
-        <img src="https://image.freepik.com/free-vector/watercolor-illustration-cute-cartoon-magic-owl-wizard-hat-with-letter-its-beak-isolated_214720-244.jpg" class="img-fluid" alt="An owl with a letter">
+        <img
+          src="https://image.freepik.com/free-vector/watercolor-illustration-cute-cartoon-magic-owl-wizard-hat-with-letter-its-beak-isolated_214720-244.jpg"
+          class="img-fluid" alt="An owl with a letter">
       </div>
       <div class="col-12 col-lg-6">
         <p class="text-white lead">
-          As of now, this page does not work. :( It is currently under construction, but as soon as it is up and running, feel free to come back and send me a message, I will try to get back to you right away.
+          In the next month, I'll be updating this page in React.js and adding many new features. Until then, please
+          feel free to contact me by using this google form!
         </p>
       </div>
     </div>
-    <div class="form-group">
-      <label class="text-white" for="email1">Email address:</label>
-      <input type="email" class="form-control" id="email1" placeholder="example@email.com">
-    </div>
-    <div class="form-group">
-      <lable class="text-white" for="name">Name:</lable>
-      <input class="form-control" id="name" type="text" placeholder="Your Name">
-    </div>
-    <div class="form-group">
-      <label class="text-white" for="writeMe">Message:</label>
-      <textarea class="form-control" id="writeMe" rows="3"></textarea>
-    </div>
-    <div class="row">
-      <div class="col12"><button type="submit" class="btn btn-dark">Submit</button></div>
-    </div>
-  </form>
-
-  <!-- footer section-->
-  <footer class="footer footer-dark mt-auto py-3">
-    <div class="container">
-      <span class="text-white">Made with <a href="https://getbootstrap.com/">Bootstrap</a> by Devon Phillips. &copy; 2020
-        DevonP702 </span>
-    </div>
-  </footer>
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLScGI_0klvNd1lRS41w1HIuLCRXrPYMZIxraTPq3AzDDuqnOTQ/viewform?embedded=true"
+      width="640" height="705" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <!--This is the pretty form that will be used when the backend is up. Coming soon!-->
+    <!-- <form id="myForm" onsubmit="handleFormSubmit(this)">
+      <p class="h4 mb-4 text-center">Contact Details</p>
+      <div class="form-group">
+        <label class="text-white" for="email">Email Address:</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="example@email.com">
+      </div>
+      <div class="form-group">
+        <lable class="text-white" for="name">Name:</lable>
+        <input class="form-control" id="name" name="name" type="text" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label class="text-white" for="writeMe">Message:</label>
+        <textarea class="form-control" id="writeMe" name="writeMe" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark btn-block">Submit</button>
+    </form>
+    <div id="output"></div> -->
+    <!-- footer section-->
+    <footer class="footer footer-dark mt-auto py-3">
+      <div class="container">
+        <span class="text-white">Made with <a href="https://getbootstrap.com/">Bootstrap</a> by Devon Phillips. &copy;
+          2020
+          DevonP702 </span>
+      </div>
+    </footer>
+  </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
 </body>
-
-</html>
