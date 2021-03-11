@@ -21,9 +21,13 @@ body {
   background-repeat: repeat;
 }
 
+#content {overflow:auto}
+
 .container {
   background-color: purple;
+  padding-right: 35px;
 }
+
 
 p, h2 {
   font-family: 'Cantarell', sans-serif;
